@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  const apiRoot = 'tasks.damiannu.repl.co/v1/tasks';
+  const apiRoot = 'https://tasks.damiannu.repl.co/v1/tasks';
   const trelloApiRoot = 'https://tasks.damiannu.repl.co/v1/trello';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
